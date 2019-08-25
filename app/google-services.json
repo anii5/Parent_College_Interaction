@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "778079854957",
+    "firebase_url": "https://fir-loginapp-28817.firebaseio.com",
+    "project_id": "fir-loginapp-28817",
+    "storage_bucket": "fir-loginapp-28817.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778079854957:android:7152e38f0387951b",
+        "android_client_info": {
+          "package_name": "com.example.parentcollegeinteraction"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778079854957-tjfic4bc385sh1un93b7ou6hru3h4lip.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.parentcollegeinteraction",
+            "certificate_hash": "72d3a67c4e62f0cb88f7d11151ef4d796a021349"
+          }
+        },
+        {
+          "client_id": "778079854957-0k7e551hv4v7jhp6udmteqfseees9578.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9AB6YQ8rL4DupEMBswndIkaw0luSEui4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778079854957-0k7e551hv4v7jhp6udmteqfseees9578.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

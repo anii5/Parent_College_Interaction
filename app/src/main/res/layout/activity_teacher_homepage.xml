@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Teacher.teacher_homepage">
+
+    <TextView
+        android:id="@+id/TeacherHomepage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="97dp"
+        android:text="Homepage"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/ParentDD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/ParentDD"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="68dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/AddParent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TeacherHomepage" />
+
+    <Button
+        android:id="@+id/AddParent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="88dp"
+        android:text="Add"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="italic|bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn_view_query"
+        app:layout_constraintEnd_toStartOf="@+id/RemoveParent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ParentDD" />
+
+    <Button
+        android:id="@+id/RemoveParent"
+        android:layout_width="0dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
+        android:text="Remove"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="italic|bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/AddParent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/AddParent" />
+
+    <Button
+        android:id="@+id/btn_view_query"
+        android:layout_width="207dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="135dp"
+        android:text="View Queries"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AddParent" />
+
+</android.support.constraint.ConstraintLayout>
